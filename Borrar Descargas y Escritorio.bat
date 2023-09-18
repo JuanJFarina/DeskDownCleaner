@@ -51,10 +51,12 @@ rem Move music files
 move "%downloadsFolder%\*.mp3" "%musicFolder%"
 move "%downloadsFolder%\*.wav" "%musicFolder%"
 move "%downloadsFolder%\*.flac" "%musicFolder%"
+move "%downloadsFolder%\*.m4a" "%musicFolder%"
 
 move "%desktopFolder%\*.mp3" "%musicFolder%"
 move "%desktopFolder%\*.wav" "%musicFolder%"
 move "%desktopFolder%\*.flac" "%musicFolder%"
+move "%desktopFolder%\*.m4a" "%musicFolder%"
 
 rem Move image files
 move "%downloadsFolder%\*.jpg" "%imagesFolder%"
@@ -62,12 +64,14 @@ move "%downloadsFolder%\*.jpeg" "%imagesFolder%"
 move "%downloadsFolder%\*.png" "%imagesFolder%"
 move "%downloadsFolder%\*.gif" "%imagesFolder%"
 move "%downloadsFolder%\*.webp" "%imagesFolder%"
+move "%downloadsFolder%\*.svg" "%imagesFolder%"
 
 move "%desktopFolder%\*.jpg" "%imagesFolder%"
 move "%desktopFolder%\*.jpeg" "%imagesFolder%"
 move "%desktopFolder%\*.png" "%imagesFolder%"
 move "%desktopFolder%\*.gif" "%imagesFolder%"
 move "%desktopFolder%\*.webp" "%imagesFolder%"
+move "%desktopFolder%\*.svg" "%imagesFolder%"
 
 echo Files moved successfully.
 
